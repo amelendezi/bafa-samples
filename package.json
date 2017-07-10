@@ -1,0 +1,24 @@
+{
+  "name": "bafa-samples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"webpack webpack2/src/js/app.js webpack2/dist/bundle.js",
+    "buildprod":"webpack webpack2/src/js/app.js webpack2/dist/bundle.js -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amelendezi/bafa-samples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amelendezi/bafa-samples/issues"
+  },
+  "homepage": "https://github.com/amelendezi/bafa-samples#readme",
+  "devDependencies": {
+    "webpack": "^3.1.0"
+  }
+}

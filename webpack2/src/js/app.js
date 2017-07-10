@@ -1,3 +1,5 @@
+import { secretButton, secretParagraph } from './dom-loader.js'
+
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
@@ -18,7 +20,7 @@ function updateSecretButton() {
 }
 
 function updateSecretParagraph() {
-    if(showSecret) {
+    if (showSecret) {
         secretParagraph.style.display = 'block';
     } else {
         secretParagraph.style.display = 'none';
