@@ -1,0 +1,12 @@
+button {
+    border: 1px solid black;
+    background-color: white;
+    padding: 8x;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #ccc;
+}
